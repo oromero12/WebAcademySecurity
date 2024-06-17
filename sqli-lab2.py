@@ -22,6 +22,7 @@ if __name__ == "__main__":
     else:
         print("- injection unsuccesfull")
 
+print("configurando github")
 
     
 
