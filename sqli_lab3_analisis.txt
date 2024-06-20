@@ -1,0 +1,9 @@
+SQLi attack #1: Hacerlo mediante UNION y valores nulos, para encontrar el numero de columnas de la tabla 1: 
+SELECT ? FROM table1 UNION select NULL,NULL,NULL
+
+SQLi attack #2: Hacerlo mediante el operador order by: ordena por columna, si no existe dicha columna genera un error: 
+SELECT a,b FROM table1 order by 1… order by2….order by 3 —> genera error.
+
+solución:
+
+filter?category=Pets’+UNION+select+NULL,NULL,NULL—
