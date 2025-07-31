@@ -29,3 +29,5 @@ if __name__ == "__main__":
         print("[+] The number of columns is " + str(num_col) + "." )
     else:
         print("[-] The SQLi attack was not successful.")
+
+##prueba de commit
